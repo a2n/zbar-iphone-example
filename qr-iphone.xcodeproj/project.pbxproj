@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B748E0A1147633BA00432094 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B748E0A0147633BA00432094 /* UIKit.framework */; };
+		B748E0A3147633BA00432094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B748E0A2147633BA00432094 /* Foundation.framework */; };
+		B748E0A5147633BA00432094 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B748E0A4147633BA00432094 /* CoreGraphics.framework */; };
+		B748E0AB147633BA00432094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B748E0A9147633BA00432094 /* InfoPlist.strings */; };
+		B748E0AD147633BA00432094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B748E0AC147633BA00432094 /* main.m */; };
+		B748E0B1147633BA00432094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B748E0B0147633BA00432094 /* AppDelegate.m */; };
+		B748E0B4147633BA00432094 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B748E0B2147633BA00432094 /* MainStoryboard.storyboard */; };
+		B748E0B7147633BA00432094 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B748E0B6147633BA00432094 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B748E09C147633BA00432094 /* qr-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "qr-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B748E0A0147633BA00432094 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B748E0A2147633BA00432094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B748E0A4147633BA00432094 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B748E0A8147633BA00432094 /* qr-iphone-Info.plist */ = {isa = PBXFileReference; path = "qr-iphone-Info.plist"; sourceTree = "<group>"; };
+		B748E0AA147633BA00432094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B748E0AC147633BA00432094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B748E0AE147633BA00432094 /* qr-iphone-Prefix.pch */ = {isa = PBXFileReference; path = "qr-iphone-Prefix.pch"; sourceTree = "<group>"; };
+		B748E0AF147633BA00432094 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B748E0B0147633BA00432094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B748E0B3147633BA00432094 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B748E0B5147633BA00432094 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B748E0B6147633BA00432094 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B748E099147633BA00432094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B748E0A1147633BA00432094 /* UIKit.framework in Frameworks */,
+				B748E0A3147633BA00432094 /* Foundation.framework in Frameworks */,
+				B748E0A5147633BA00432094 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B748E091147633B900432094 = {
+			isa = PBXGroup;
+			children = (
+				B748E0A6147633BA00432094 /* qr-iphone */,
+				B748E09F147633BA00432094 /* Frameworks */,
+				B748E09D147633BA00432094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B748E09D147633BA00432094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B748E09C147633BA00432094 /* qr-iphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B748E09F147633BA00432094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B748E0A0147633BA00432094 /* UIKit.framework */,
+				B748E0A2147633BA00432094 /* Foundation.framework */,
+				B748E0A4147633BA00432094 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B748E0A6147633BA00432094 /* qr-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				B748E0AF147633BA00432094 /* AppDelegate.h */,
+				B748E0B0147633BA00432094 /* AppDelegate.m */,
+				B748E0B2147633BA00432094 /* MainStoryboard.storyboard */,
+				B748E0B5147633BA00432094 /* ViewController.h */,
+				B748E0B6147633BA00432094 /* ViewController.m */,
+				B748E0A7147633BA00432094 /* Supporting Files */,
+			);
+			path = "qr-iphone";
+			sourceTree = "<group>";
+		};
+		B748E0A7147633BA00432094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B748E0A8147633BA00432094 /* qr-iphone-Info.plist */,
+				B748E0A9147633BA00432094 /* InfoPlist.strings */,
+				B748E0AC147633BA00432094 /* main.m */,
+				B748E0AE147633BA00432094 /* qr-iphone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B748E09B147633BA00432094 /* qr-iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B748E0BA147633BA00432094 /* Build configuration list for PBXNativeTarget "qr-iphone" */;
+			buildPhases = (
+				B748E098147633BA00432094 /* Sources */,
+				B748E099147633BA00432094 /* Frameworks */,
+				B748E09A147633BA00432094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "qr-iphone";
+			productName = "qr-iphone";
+			productReference = B748E09C147633BA00432094 /* qr-iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B748E093147633B900432094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B748E096147633B900432094 /* Build configuration list for PBXProject "qr-iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B748E091147633B900432094;
+			productRefGroup = B748E09D147633BA00432094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B748E09B147633BA00432094 /* qr-iphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B748E09A147633BA00432094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B748E0AB147633BA00432094 /* InfoPlist.strings in Resources */,
+				B748E0B4147633BA00432094 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B748E098147633BA00432094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B748E0AD147633BA00432094 /* main.m in Sources */,
+				B748E0B1147633BA00432094 /* AppDelegate.m in Sources */,
+				B748E0B7147633BA00432094 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B748E0A9147633BA00432094 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B748E0AA147633BA00432094 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B748E0B2147633BA00432094 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B748E0B3147633BA00432094 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B748E0B8147633BA00432094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B748E0B9147633BA00432094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B748E0BB147633BA00432094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qr-iphone/qr-iphone-Prefix.pch";
+				INFOPLIST_FILE = "qr-iphone/qr-iphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B748E0BC147633BA00432094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qr-iphone/qr-iphone-Prefix.pch";
+				INFOPLIST_FILE = "qr-iphone/qr-iphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B748E096147633B900432094 /* Build configuration list for PBXProject "qr-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B748E0B8147633BA00432094 /* Debug */,
+				B748E0B9147633BA00432094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B748E0BA147633BA00432094 /* Build configuration list for PBXNativeTarget "qr-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B748E0BB147633BA00432094 /* Debug */,
+				B748E0BC147633BA00432094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B748E093147633B900432094 /* Project object */;
+}
