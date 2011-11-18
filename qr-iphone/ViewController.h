@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZBarSDK.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ZBarReaderViewDelegate>
+{
+    ZBarReaderView * _reader;
+}
 
+@property (retain, nonatomic) IBOutlet UILabel *text;
+@property (retain, nonatomic) IBOutlet UIImageView *image_view;
+- (IBAction)clicked:(id)sender;
 @end

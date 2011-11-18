@@ -1,0 +1,6 @@
+This is a simple iPhone example using ZBarSDK[1] QR scanner.
+
+This has preview view, result image & text, and exit button.
+
+ref:
+[1] http://zbar.sourceforge.net/
